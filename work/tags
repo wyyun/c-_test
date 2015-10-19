@@ -1,0 +1,381 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+A	namespace.cc	/^namespace A{$/;"	n	file:
+A	newclass.cc	/^        A()$/;"	f	class:A
+A	newclass.cc	/^class A{$/;"	c	file:
+AVLtree	search.cc	/^struct AVLtree{$/;"	s	file:
+AdjGraph	graph.cc	/^typedef struct AdjGraph{$/;"	s	file:
+Adjedg	graph.cc	/^    int Adjedg;$/;"	m	struct:EdgNode	file:
+B	namespace.cc	/^            B(int n, string nm):$/;"	f	class:A::B
+B	namespace.cc	/^            B(int n, string nm, int h):$/;"	f	class:A::B
+B	namespace.cc	/^    class B{$/;"	c	namespace:A	file:
+BFS_Graph	graph.cc	/^void BFS_Graph(MGraph g)$/;"	f
+Base	copy.cc	/^        Base() {cout << "Base 构造函数NULL" << endl;};$/;"	f	class:Base
+Base	copy.cc	/^        Base(Base &base)$/;"	f	class:Base
+Base	copy.cc	/^        Base(char ch,int a,double b,double d,string s):$/;"	f	class:Base
+Base	copy.cc	/^class Base{$/;"	c	file:
+Base	newclass.cc	/^        Base() {cout << "Base默认构造函数" << endl;}$/;"	f	class:Base
+Base	newclass.cc	/^        Base(string s):$/;"	f	class:Base
+Base	newclass.cc	/^class Base{$/;"	c	file:
+Base	shared_ptr.cc	/^        Base(allocator<string> a):$/;"	f	class:Base
+Base	shared_ptr.cc	/^        Base(string s1,string s2):$/;"	f	class:Base
+Base	shared_ptr.cc	/^        Base(vector<string> s):$/;"	f	class:Base
+Base	shared_ptr.cc	/^class Base{$/;"	c	file:
+Binary_search	search.cc	/^int Binary_search(int *a, int size,int &count)$/;"	f
+BitNode	search.cc	/^struct BitNode{$/;"	s	file:
+Boss	template.cc	/^        Boss( I a, S s):$/;"	f	class:Boss
+Boss	template.cc	/^        Boss(Boss &boss)$/;"	f	class:Boss
+Boss	template.cc	/^template <typename I,typename S> class Boss$/;"	c	file:
+Compute_Lat	stack.cc	/^int Compute_Lat(char *surfix)$/;"	f
+Compute_expression	stack.cc	/^void Compute_expression(Stack_int *IStack,char c)$/;"	f
+CreatAVL	search.cc	/^void CreatAVL(AVLtree *atree, int *a, int size)$/;"	f
+CreatBST	search.cc	/^void CreatBST(BitNode **btree,int *a,int size)$/;"	f
+Create_Ptree	tree.cc	/^PNode *PNode::Create_Ptree(PNode *p)$/;"	f	class:PNode
+Create_threadtree	threadedtree.cc	/^void PNode::Create_threadtree(PNode *p)$/;"	f	class:PNode
+Create_tree	threadedtree.cc	/^void PNode::Create_tree(PNode *p)$/;"	f	class:PNode
+DFS	graph.cc	/^void DFS(MGraph g,int vex)$/;"	f
+DFS	wyy.c	/^ typedef struct DFS$/;"	s	file:
+DFS	wyy.c	/^}DFS;$/;"	t	typeref:struct:DFS	file:
+DFS_Graph	graph.cc	/^void DFS_Graph(MGraph g)$/;"	f
+DLinklist	list.cc	/^typedef struct DLinklist{$/;"	s	file:
+DLinklist	list.cc	/^}DLinklist;\/\/双链表$/;"	t	typeref:struct:DLinklist	file:
+DLinklist_Delete	list.cc	/^void DLinklist_Delete(DLinklist *list,int des)$/;"	f
+DLinklist_Insert	list.cc	/^void DLinklist_Insert(DLinklist *list, int num, int des)$/;"	f
+Derived1	newclass.cc	/^        Derived1() {cout << "Derived1默认构造函数" << endl;}$/;"	f	class:Derived1
+Derived1	newclass.cc	/^        Derived1(string s1,string b):$/;"	f	class:Derived1
+Derived1	newclass.cc	/^class Derived1:public \/*virtual*\/ Base{$/;"	c	file:
+Derived2	newclass.cc	/^        Derived2(string s,string b,int n):$/;"	f	class:Derived2
+Derived2	newclass.cc	/^class Derived2:public Derived1{$/;"	c	file:
+Derived3	newclass.cc	/^        Derived3(string s,string b,double d):$/;"	f	class:Derived3
+Derived3	newclass.cc	/^class Derived3:public Derived1 ,\/* virtual*\/ public Base{$/;"	c	file:
+EH	search.cc	219;"	d	file:
+EdgNode	graph.cc	/^typedef struct EdgNode{$/;"	s	file:
+Edge	graph.cc	/^struct Edge{$/;"	s	file:
+Edges	1.cc	/^struct Edges{$/;"	s	file:
+F	search.cc	/^int F[10] = {0,1,1,2,3,5,8,13,21,34};$/;"	v
+Fibonacci_search	search.cc	/^void  Fibonacci_search(int *a, int size)$/;"	f
+INFINITY	graph.cc	6;"	d	file:
+InOrderTraverse_NR	tree.cc	/^void PNode::InOrderTraverse_NR(PNode *p)$/;"	f	class:PNode
+InOrderTraverse_R	tree.cc	/^void PNode::InOrderTraverse_R(PNode *p)$/;"	f	class:PNode
+IndexAVL	search.cc	/^void IndexAVL(AVLtree *atree)$/;"	f
+IndexBST	search.cc	/^void IndexBST(BitNode *btree)$/;"	f
+Index_KMP	KMP.cc	/^int Index_KMP(string S, string T, int pos)$/;"	f
+Init_queue	graph.cc	/^void Queue::Init_queue()$/;"	f	class:Queue
+InsertAVL	search.cc	/^bool InsertAVL(AVLtree *atree, int key, int *taller)$/;"	f
+InsertBST	search.cc	/^void InsertBST(BitNode **btree, int ele)$/;"	f
+InsertBinary_search	search.cc	/^int InsertBinary_search(int *a, int size,int &count)$/;"	f
+LH	search.cc	220;"	d	file:
+LeftBalance	search.cc	/^void LeftBalance(AVLtree *atree)\/\/atree->bf = 2$/;"	f
+Linklist	linklist.cc	/^typedef struct Linklist{$/;"	s	file:
+Linklist	linklist.cc	/^} Linklist;\/\/单链表$/;"	t	typeref:struct:Linklist	file:
+Linklist	list.cc	/^typedef struct Linklist{$/;"	s	file:
+Linklist	list.cc	/^}Linklist;\/\/单链表$/;"	t	typeref:struct:Linklist	file:
+Linklist_Delete	linklist.cc	/^void Linklist_Delete(Linklist *list, int des)$/;"	f
+Linklist_Delete	list.cc	/^void Linklist_Delete(Linklist *list, int des)$/;"	f
+Linklist_Dump	linklist.cc	/^void Linklist_Dump(Linklist *l)$/;"	f
+Linklist_Insert	linklist.cc	/^void Linklist_Insert(Linklist *list, int num, int des)$/;"	f
+Linklist_Insert	list.cc	/^void Linklist_Insert(Linklist *list,int num, int des)$/;"	f
+Linklist_InsertElement	linklist.cc	/^void Linklist_InsertElement(Linklist *l, int data)$/;"	f
+ListDelete	list.cc	/^int ListDelete(Slist *list, int num)$/;"	f
+ListInsert	list.cc	/^int ListInsert(Slist *list, int num, int des)$/;"	f
+MAXSIZE	KMP.cc	5;"	d	file:
+MAXSIZE	graph.cc	5;"	d	file:
+MAXSIZE	linklist.cc	5;"	d	file:
+MAXSIZE	list.cc	5;"	d	file:
+MAXSIZE	stack.cc	4;"	d	file:
+MAXSIZE	tree.cc	3;"	d	file:
+MGraph	graph.cc	/^typedef struct MGraph{$/;"	s	file:
+Minispantree_kruskal	graph.cc	/^void Minispantree_kruskal(MGraph g)$/;"	f
+Minispantree_prim	graph.cc	/^void Minispantree_prim(MGraph g)$/;"	f
+NUMTHREADS	hello.c	3;"	d	file:
+PBase	class.cc	/^        PBase (PBase &p):$/;"	f	class:PBase
+PBase	class.cc	/^        PBase(PBase &&p):$/;"	f	class:PBase
+PBase	class.cc	/^        PBase(double p, string b):$/;"	f	class:PBase
+PBase	class.cc	/^class PBase{$/;"	c	file:
+PNode	threadedtree.cc	/^class PNode{$/;"	c	file:
+PNode	tree.cc	/^class PNode{$/;"	c	file:
+Person	person.cc	/^class Person{$/;"	c	file:
+Person1	person.cc	/^        Person1(const string n,const string add) : name(n),address(add) {}$/;"	f	class:Person1
+Person1	person.cc	/^        Person1(const string n,const string add, int a) : name(n),address(add),age(a) {}$/;"	f	class:Person1
+Person1	person.cc	/^        Person1(int a):age(a) {}$/;"	f	class:Person1
+Person1	person.cc	/^class Person1{$/;"	c	file:
+PostOrderTraverse_NR	tree.cc	/^void PNode::PostOrderTraverse_NR(PNode *p)$/;"	f	class:PNode
+PostOrderTraverse_R	tree.cc	/^void PNode::PostOrderTraverse_R(PNode *p)$/;"	f	class:PNode
+PreOrderTraverse_NR	tree.cc	/^void PNode::PreOrderTraverse_NR(PNode *p)\/\/非递归先序$/;"	f	class:PNode
+PreOrderTraverse_R	tree.cc	/^void PNode::PreOrderTraverse_R(PNode *p)\/\/递归先序$/;"	f	class:PNode
+Priv_Base	class.cc	/^class Priv_Base: private PBase{$/;"	c	file:
+Prot_Base	class.cc	/^class Prot_Base: protected PBase{$/;"	c	file:
+PubBase	copy.cc	/^        PubBase(char ch,int a,double b,double d,string s,int n):$/;"	f	class:PubBase
+PubBase	copy.cc	/^        PubBase(int l,double w):$/;"	f	class:PubBase
+PubBase	copy.cc	/^class PubBase:public Base{$/;"	c	file:
+Pub_Base	class.cc	/^        Pub_Base(double p,string b,double d,size_t m,vector<string> svec):$/;"	f	class:Pub_Base
+Pub_Base	class.cc	/^class Pub_Base: public PBase{$/;"	c	file:
+Queue	graph.cc	/^class Queue{$/;"	c	file:
+Queue_empty	graph.cc	/^int Queue::Queue_empty()$/;"	f	class:Queue
+RH	search.cc	221;"	d	file:
+RightBalance	search.cc	/^void RightBalance(AVLtree *atree)\/\/atree->bf = 2$/;"	f
+SearchBST	search.cc	/^bool SearchBST(BitNode *btree, int ele, BitNode *parrent, BitNode **pre)$/;"	f
+Sequence_search	search.cc	/^void Sequence_search(int *a, int size)$/;"	f
+Shortestpath_Dijkstral	graph.cc	/^void Shortestpath_Dijkstral(MGraph g,int v0)$/;"	f
+Shortestpath_Floyd	graph.cc	/^void Shortestpath_Floyd(MGraph g)$/;"	f
+Slist	list.cc	/^typedef struct Slist{$/;"	s	file:
+Slist	list.cc	/^}Slist;\/\/顺序表$/;"	t	typeref:struct:Slist	file:
+Stack_char	stack.cc	/^typedef struct Stack_char{$/;"	s	file:
+Stack_char	stack.cc	/^}Stack_char;$/;"	t	typeref:struct:Stack_char	file:
+Stack_int	stack.cc	/^typedef struct Stack_int{$/;"	s	file:
+Stack_int	stack.cc	/^}Stack_int;$/;"	t	typeref:struct:Stack_int	file:
+Transfer_MidtoLat	stack.cc	/^void Transfer_MidtoLat(string s, Stack_char *CStack1, Stack_char *CStack2)$/;"	f
+VexNode	graph.cc	/^typedef struct VexNode{$/;"	s	file:
+Virtual_base	class.cc	/^class Virtual_base{$/;"	c	file:
+a	template.cc	/^    a(a& s):$/;"	f	struct:a
+a	template.cc	/^    a(int s1,int s2):$/;"	f	struct:a
+a	template.cc	/^struct a{$/;"	s	file:
+a	wyy.c	/^    int a;$/;"	m	struct:DFS	file:
+add_Svec	vector.cc	/^void add_Svec(vector<string> Svec)$/;"	f
+add_age	person.cc	/^void Person1::add_age()$/;"	f	class:Person1
+add_name	person.cc	/^Person1 add_name(Person1 p1,Person1 p2)$/;"	f
+add_num	copy.cc	/^        virtual void add_num() {cout << "Base : false add_num" << endl;}$/;"	f	class:Base
+add_num	copy.cc	/^        void add_num() {num++;cout << "PubBase :ture add_num  & num = " << num << endl;}$/;"	f	class:PubBase
+add_person	person.cc	/^void add_person(Person1 p1,Person1 p2)$/;"	f
+address	person.cc	/^        string address;$/;"	m	class:Person1	file:
+address	person.cc	/^    string address;$/;"	m	class:Person	file:
+age	person.cc	/^        int age;$/;"	m	class:Person1	file:
+age	template.cc	/^        I age;$/;"	m	class:Boss	file:
+allo_vec	shared_ptr.cc	/^        allocator<string> allo_vec;$/;"	m	class:Base	file:
+alloc_n_copy	shared_ptr.cc	/^pair<string*,string*> Base::alloc_n_copy(const string *a, const string *b)$/;"	f	class:Base
+aptr	shared_ptr.cc	/^        auto_ptr<string> aptr;$/;"	m	class:Base	file:
+arc	graph.cc	/^    int arc[MAXSIZE][MAXSIZE];$/;"	m	struct:MGraph	file:
+begin	1.cc	/^    int begin;$/;"	m	struct:Edges	file:
+begin	graph.cc	/^    int begin;$/;"	m	struct:Edge	file:
+bf	search.cc	/^    int bf;$/;"	m	struct:AVLtree	file:
+book	namespace.cc	/^    string book;$/;"	m	namespace:A	file:
+book	newclass.cc	/^        char *book;$/;"	m	class:A	file:
+book	newclass.cc	/^        string book;$/;"	m	class:Derived1	file:
+bookNo	class.cc	/^        string bookNo;$/;"	m	class:PBase	file:
+buildMap	mapset.cc	/^map<string,string> buildMap(ifstream &mapfile)$/;"	f
+c	copy.cc	/^        char c;$/;"	m	class:Base	file:
+campare	template.cc	/^    T campare(T s1,T s2)$/;"	f
+campareclass	template.cc	/^    void campareclass(Boss<I,S> boss1,Boss<I,S> boss2)$/;"	f
+compare_priority	stack.cc	/^char compare_priority(char c, char d)$/;"	f
+copy_odd	vector.cc	/^void copy_odd(vector<int> *ivec)$/;"	f
+count_words	mapset.cc	/^void count_words(map<string,size_t> words)$/;"	f
+creat_Adjgraph	graph.cc	/^void creat_Adjgraph(AdjGraph *g, int vexs, int edges)$/;"	f
+creat_DLinklist	list.cc	/^void creat_DLinklist(DLinklist *list)$/;"	f
+creat_graph	graph.cc	/^void creat_graph(MGraph *g, int vex, int edg)$/;"	f
+creat_linklist	linklist.cc	/^void creat_linklist(Linklist *list)$/;"	f
+creat_linklist	list.cc	/^void creat_linklist(Linklist *list)$/;"	f
+data	class.cc	/^        shared_ptr<vector<string>> data;$/;"	m	class:Pub_Base	file:
+data	graph.cc	/^    int data[2*MAXSIZE];$/;"	m	class:Queue	file:
+data	linklist.cc	/^    int data;$/;"	m	struct:Linklist	file:
+data	list.cc	/^    int data;$/;"	m	struct:DLinklist	file:
+data	list.cc	/^    int data;$/;"	m	struct:Linklist	file:
+data	list.cc	/^    int data[MAXSIZE];$/;"	m	struct:Slist	file:
+data	search.cc	/^    int data;$/;"	m	struct:AVLtree	file:
+data	search.cc	/^    int data;$/;"	m	struct:BitNode	file:
+data	stack.cc	/^    char data[MAXSIZE];$/;"	m	struct:Stack_char	file:
+data	stack.cc	/^    int data[MAXSIZE];$/;"	m	struct:Stack_int	file:
+data	threadedtree.cc	/^    char data;$/;"	m	class:PNode	file:
+data	tree.cc	/^    PNode* data[MAXSIZE];$/;"	m	class:stack	file:
+data	tree.cc	/^    char data;$/;"	m	class:PNode	file:
+delete_BST	search.cc	/^void delete_BST(BitNode *btree, int key)$/;"	f
+delete_key	search.cc	/^void delete_key(BitNode *btree)$/;"	f
+delete_map	mapset.cc	/^void delete_map(map<string,size_t> *words,string s)$/;"	f
+discount	class.cc	/^        double discount = 0;$/;"	m	class:Pub_Base	file:
+end	1.cc	/^    int end;$/;"	m	struct:Edges	file:
+end	graph.cc	/^    int end;$/;"	m	struct:Edge	file:
+f	wyy2.cc	/^void f()$/;"	f
+f	wyy2.cc	/^void f(double a, double b = 3.14)$/;"	f
+f	wyy2.cc	/^void f(int a ,int b)$/;"	f
+find	graph.cc	/^int find(int *p, int n)$/;"	f
+firstedg	graph.cc	/^    EdgNode *firstedg;$/;"	m	struct:VexNode	file:
+flag	tree.cc	/^    int flag;$/;"	m	class:PNode	file:
+front	graph.cc	/^    int front;$/;"	m	class:Queue	file:
+get	wyy1.cc	/^int &get(vector<int> ivec,int index)$/;"	f
+get_age	person.cc	/^        int get_age()$/;"	f	class:Person1
+get_name	person.cc	/^        string get_name()$/;"	f	class:Person1
+get_next	KMP.cc	/^void get_next(string T, int *next)$/;"	f
+get_nextval	KMP.cc	/^void get_nextval(string T, int *next)$/;"	f
+i	template.cc	/^    const int i;$/;"	m	struct:a	file:
+init	person.cc	/^    void init(string s1,string s2)$/;"	f	class:Person
+init_Svec	mapset.cc	/^void init_Svec(vector<string> *svec,int size)$/;"	f
+init_Svec	vector.cc	/^void init_Svec(vector<string> *svec, int size)$/;"	f
+init_allo	shared_ptr.cc	/^void init_allo(allocator<string> *a)$/;"	f
+init_list	vector.cc	/^void init_list(list<int> *ilist)$/;"	f
+init_map	mapset.cc	/^void init_map(map<string,size_t> *words, vector<string> svec)$/;"	f
+init_multmap	mapset.cc	/^void init_multmap(multimap<string,size_t> *word, vector<string> svec)$/;"	f
+init_multset	mapset.cc	/^void init_multset(multiset<string> *word, vector<string> svec)$/;"	f
+init_string	vector.cc	/^void init_string(string *s,int size, char c)$/;"	f
+init_svec	shared_ptr.cc	/^void init_svec(vector<string> *s,int size)$/;"	f
+init_svector	class.cc	/^void init_svector(vector<string> &s)$/;"	f
+init_vec	vector.cc	/^void init_vec(vector<int> *ivec, int size)$/;"	f
+isbn	class.cc	/^        string isbn() const {return bookNo;}$/;"	f	class:PBase
+isshorter	wyy2.cc	/^inline string isshorter(string s1, string s2)$/;"	f
+j	template.cc	/^    int j;$/;"	m	struct:a	file:
+lchild	search.cc	/^    AVLtree *lchild,*rchild;$/;"	m	struct:AVLtree	file:
+lchild	search.cc	/^    struct BitNode *lchild,*rchild;$/;"	m	struct:BitNode	typeref:struct:BitNode::BitNode	file:
+lchild	threadedtree.cc	/^    PNode *lchild;$/;"	m	class:PNode	file:
+lchild	tree.cc	/^    struct PNode *lchild,*rchild;$/;"	m	class:PNode	typeref:struct:PNode::PNode	file:
+len	copy.cc	/^        int len;$/;"	m	class:Base	file:
+len	copy.cc	/^        int len;$/;"	m	class:PubBase	file:
+length	copy.cc	/^        double length() {return len;}$/;"	f	class:Base
+length	list.cc	/^    int length;$/;"	m	struct:Slist	file:
+lflag	threadedtree.cc	/^    int lflag;$/;"	m	class:PNode	file:
+linklist_create	linklist.cc	/^Linklist *linklist_create()$/;"	f
+low	wyy2.cc	/^constexpr int low(int a1, int a2)$/;"	f
+main	1.cc	/^int main()$/;"	f
+main	KMP.cc	/^int main()$/;"	f
+main	class.cc	/^int main()$/;"	f
+main	copy.cc	/^int main()$/;"	f
+main	graph.cc	/^int main()$/;"	f
+main	hello.c	/^void main(){$/;"	f
+main	linklist.cc	/^int main()$/;"	f
+main	list.cc	/^int main()$/;"	f
+main	mapset.cc	/^int main()$/;"	f
+main	namespace.cc	/^int main()$/;"	f
+main	newclass.cc	/^int main()$/;"	f
+main	person.cc	/^int main()$/;"	f
+main	search.cc	/^int main()$/;"	f
+main	shared_ptr.cc	/^int main()$/;"	f
+main	stack.cc	/^int main()$/;"	f
+main	template.cc	/^int main()$/;"	f
+main	threadedtree.cc	/^int  main()$/;"	f
+main	tree.cc	/^int main()$/;"	f
+main	vector.cc	/^int main()$/;"	f
+main	wyy.c	/^void main()$/;"	f
+main	wyy1.cc	/^int main()$/;"	f
+main	wyy2.cc	/^int main()$/;"	f
+min_qty	class.cc	/^        int min_qty = 0;$/;"	m	class:Pub_Base	file:
+name	copy.cc	/^        string name;$/;"	m	class:Base	file:
+name	namespace.cc	/^            string name;$/;"	m	class:A::B	file:
+name	newclass.cc	/^        string *name;$/;"	m	class:A	file:
+name	newclass.cc	/^        string name;$/;"	m	class:Base	file:
+name	person.cc	/^        string name;$/;"	m	class:Person1	file:
+name	person.cc	/^    string name;$/;"	m	class:Person	file:
+name	template.cc	/^        S name;$/;"	m	class:Boss	file:
+net_price	class.cc	/^double PBase::net_price(size_t n) const$/;"	f	class:PBase
+net_price	class.cc	/^double Pub_Base::net_price(size_t n) const$/;"	f	class:Pub_Base
+next	graph.cc	/^    struct EdgNode *next;$/;"	m	struct:EdgNode	typeref:struct:EdgNode::EdgNode	file:
+next	linklist.cc	/^    Linklist *next;$/;"	m	struct:Linklist	file:
+next	list.cc	/^    DLinklist *next;$/;"	m	struct:DLinklist	file:
+next	list.cc	/^    Linklist *next;$/;"	m	struct:Linklist	file:
+num	copy.cc	/^        int num;$/;"	m	class:PubBase	file:
+num	namespace.cc	/^            int num;\/\/隐藏了外部的num和price变量$/;"	m	class:A::B	file:
+num	namespace.cc	/^    int num = 5;$/;"	m	namespace:A	file:
+num	newclass.cc	/^        int num;$/;"	m	class:Derived2	file:
+numEdg	graph.cc	/^    int numVex,numEdg;$/;"	m	struct:AdjGraph	file:
+numEdg	graph.cc	/^    int numVex,numEdg;$/;"	m	struct:MGraph	file:
+numVex	graph.cc	/^    int numVex,numEdg;$/;"	m	struct:AdjGraph	file:
+numVex	graph.cc	/^    int numVex,numEdg;$/;"	m	struct:MGraph	file:
+number	class.cc	/^        int number;$/;"	m	class:Virtual_base	file:
+operator <<	shared_ptr.cc	/^ostream &operator <<(ostream &os, const Base &base)$/;"	f
+operator =	copy.cc	/^        Base &operator= (Base &base)$/;"	f	class:Base
+operator =	copy.cc	/^        PubBase &operator= (PubBase &base)$/;"	f	class:PubBase
+operator =	shared_ptr.cc	/^Base &Base::operator=(initializer_list<string> ls)$/;"	f	class:Base
+override	class.cc	/^        double net_price(size_t n) const override;$/;"	m	class:Pub_Base	file:
+pop_queue	graph.cc	/^int Queue::pop_queue()$/;"	f	class:Queue
+pop_stack	tree.cc	/^void stack::pop_stack(PNode *p)$/;"	f	class:stack
+pre	threadedtree.cc	/^PNode *pre;$/;"	v
+price	class.cc	/^        double price = 0;$/;"	m	class:PBase	file:
+price	namespace.cc	/^            int price;$/;"	m	class:A::B	file:
+price	namespace.cc	/^    int price = 15;$/;"	m	namespace:A	file:
+price	newclass.cc	/^        double price;$/;"	m	class:Derived3	file:
+print	KMP.cc	/^void print(string T, string S, int flag)$/;"	f
+print	class.cc	/^void Pub_Base::print() const$/;"	f	class:Pub_Base
+print	graph.cc	/^void print(MGraph g, int *shortest, int *path)$/;"	f
+print	graph.cc	/^void print(MGraph g, int shortest[][MAXSIZE], int path[][MAXSIZE])$/;"	f
+print	graph.cc	/^void print(vector<Edge> e)$/;"	f
+print	list.cc	/^void print(DLinklist *list)$/;"	f
+print	list.cc	/^void print(Linklist *list)$/;"	f
+print	list.cc	/^void print(Slist *list1)$/;"	f
+print	mapset.cc	/^void print(map<string,size_t> word)$/;"	f
+print	mapset.cc	/^void print(multimap<string,size_t> word)$/;"	f
+print	mapset.cc	/^void print(multiset<string> word)$/;"	f
+print	mapset.cc	/^void print(set<string> word)$/;"	f
+print	person.cc	/^ostream &print(ostream &os, const Person &person)$/;"	f
+print	person.cc	/^void Person1::print()$/;"	f	class:Person1
+print	person.cc	/^void Person::print()$/;"	f	class:Person
+print	search.cc	/^void print(int *a, int n)$/;"	f
+print	shared_ptr.cc	/^void Base::print() const$/;"	f	class:Base
+print	shared_ptr.cc	/^void print(auto_ptr<string> a)$/;"	f
+print	shared_ptr.cc	/^void print(shared_ptr<string> s)$/;"	f
+print	stack.cc	/^void print(Stack_char CStack,char *surfix)$/;"	f
+print	template.cc	/^void Boss<I,S>::print()$/;"	f	class:Boss
+print	vector.cc	/^void print(const list<int> ilist)$/;"	f
+print	vector.cc	/^void print(const string s)$/;"	f
+print	vector.cc	/^void print(const vector<int> ivec)$/;"	f
+print	vector.cc	/^void print(vector<string> svec)$/;"	f
+print_graph	graph.cc	/^void print_graph(MGraph g)$/;"	f
+print_ivec	wyy1.cc	/^void print_ivec(vector<int> ivec,int i)$/;"	f
+prior	list.cc	/^    DLinklist *prior;$/;"	m	struct:DLinklist	file:
+priority	stack.cc	/^char priority[5][5] = {'=','=','<','<','>',$/;"	v
+push_queue	graph.cc	/^void Queue::push_queue(int num)$/;"	f	class:Queue
+push_stack	tree.cc	/^void stack::push_stack(PNode *p)$/;"	f	class:stack
+push_vector	class.cc	/^        void push_vector(string s) {data->push_back(s);}$/;"	f	class:Pub_Base
+pushstack	stack.cc	/^void pushstack(Stack_char *CStack, char c)$/;"	f
+pushstack	stack.cc	/^void pushstack(Stack_int *IStack,int a)$/;"	f
+rchild	search.cc	/^    AVLtree *lchild,*rchild;$/;"	m	struct:AVLtree	file:
+rchild	search.cc	/^    struct BitNode *lchild,*rchild;$/;"	m	struct:BitNode	typeref:struct:BitNode::	file:
+rchild	threadedtree.cc	/^    PNode *rchild;$/;"	m	class:PNode	file:
+rchild	tree.cc	/^    struct PNode *lchild,*rchild;$/;"	m	class:PNode	typeref:struct:PNode::	file:
+read	person.cc	/^istream &read(istream &is, Person &person)$/;"	f
+rear	graph.cc	/^    int rear;$/;"	m	class:Queue	file:
+release_aptr	shared_ptr.cc	/^void release_aptr(auto_ptr<string> a)$/;"	f
+release_sptr	shared_ptr.cc	/^void release_sptr(shared_ptr<string> s)$/;"	f
+return_age	template.cc	/^        I return_age() {return this->age;}$/;"	f	class:Boss
+return_aptr	shared_ptr.cc	/^        auto_ptr<string> return_aptr() {return aptr;}$/;"	f	class:Base
+return_name	namespace.cc	/^            string return_name() {return name;}$/;"	f	class:A::B
+return_name	template.cc	/^        S return_name() {return this->name;}$/;"	f	class:Boss
+return_size	shared_ptr.cc	/^        int return_size() const {return size;}$/;"	f	class:Base
+return_sptr	shared_ptr.cc	/^        shared_ptr<string> return_sptr() {return sptr;}$/;"	f	class:Base
+return_str	shared_ptr.cc	/^        string return_str() const {return str;}$/;"	f	class:Base
+rflag	threadedtree.cc	/^    int rflag;$/;"	m	class:PNode	file:
+s	wyy.c	/^    char* s;$/;"	m	struct:DFS	file:
+setvalue	newclass.cc	/^        void setvalue(string *s, char *c)$/;"	f	class:A
+show	copy.cc	/^void Base::show()$/;"	f	class:Base
+show	copy.cc	/^void PubBase::show()$/;"	f	class:PubBase
+show	newclass.cc	/^void Base::show()$/;"	f	class:Base
+show1	namespace.cc	/^void A::B::show1()$/;"	f	class:A::B
+show2	namespace.cc	/^            void show2() { cout << " B:price = " << price << endl; }$/;"	f	class:A::B
+show2	newclass.cc	/^void Derived1::show2()$/;"	f	class:Derived1
+show3	namespace.cc	/^void A::show3(B &b)$/;"	f	class:A
+show3	newclass.cc	/^void Derived2::show3()$/;"	f	class:Derived2
+show4	namespace.cc	/^void A::show4()$/;"	f	class:A
+show4	newclass.cc	/^void Derived3::show4()$/;"	f	class:Derived3
+show5	namespace.cc	/^void A::show5(B &b)$/;"	f	class:A
+show_pri	copy.cc	/^void Base::show_pri()$/;"	f	class:Base
+show_pri	copy.cc	/^void PubBase::show_pri()$/;"	f	class:PubBase
+size	class.cc	/^        int size() {return data->size();}$/;"	f	class:Pub_Base
+size	shared_ptr.cc	/^        int size;$/;"	m	class:Base	file:
+sptr	shared_ptr.cc	/^        shared_ptr<string> sptr;$/;"	m	class:Base	file:
+stack	tree.cc	/^class stack{$/;"	c	file:
+str	shared_ptr.cc	/^        string str;$/;"	m	class:Base	file:
+strvec	shared_ptr.cc	/^        vector<string> strvec;$/;"	m	class:Base	file:
+sum_add	wyy1.cc	/^int sum_add(initializer_list<int> li)$/;"	f
+tal	copy.cc	/^        double tal;$/;"	m	class:Base	file:
+tall	copy.cc	/^        double tall() {return tal;}$/;"	f	class:Base
+top	stack.cc	/^    int top;$/;"	m	struct:Stack_char	file:
+top	stack.cc	/^    int top;$/;"	m	struct:Stack_int	file:
+top	tree.cc	/^    int top = -1;$/;"	m	class:stack	file:
+transfer	graph.cc	/^void transfer(MGraph g,vector<Edge> *e)$/;"	f
+transform	mapset.cc	/^const string& transform(const string &s, const map<string,string> &m)$/;"	f
+vex	graph.cc	/^    int vex;$/;"	m	struct:VexNode	file:
+vexnode	graph.cc	/^    VexNode vexnode[MAXSIZE];$/;"	m	struct:AdjGraph	file:
+vexs	graph.cc	/^    char vexs[MAXSIZE];$/;"	m	struct:MGraph	file:
+visited	graph.cc	/^int visited[MAXSIZE];\/\/标志访问顶点$/;"	v
+visited_BFS	graph.cc	/^int visited_BFS[MAXSIZE];$/;"	v
+weight	1.cc	/^    int weight;$/;"	m	struct:Edges	file:
+weight	graph.cc	/^    int weight;$/;"	m	struct:EdgNode	file:
+weight	graph.cc	/^    int weight;$/;"	m	struct:Edge	file:
+wid	copy.cc	/^        double wid;$/;"	m	class:Base	file:
+wid	copy.cc	/^        double wid;$/;"	m	class:PubBase	file:
+width	copy.cc	/^        double width() {return wid;}$/;"	f	class:Base
+word_transfrom	mapset.cc	/^void word_transfrom(ifstream &mapfile, ifstream &input)$/;"	f
+~A	newclass.cc	/^        ~A()$/;"	f	class:A
+~Base	newclass.cc	/^        virtual ~Base() {cout << "Base希构函数" << endl;  }$/;"	f	class:Base
+~Derived1	newclass.cc	/^        virtual ~Derived1() {cout << "Derived1希构函数" << endl;}$/;"	f	class:Derived1
+~Derived2	newclass.cc	/^        virtual ~Derived2() {cout << "Derived2希构函数" << endl;};$/;"	f	class:Derived2
+~Derived3	newclass.cc	/^        virtual ~Derived3() {cout << "Derived3希构函数" << endl;}$/;"	f	class:Derived3

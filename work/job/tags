@@ -1,0 +1,128 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+A	moni.cc	/^class A$/;"	c	file:
+A	tencent.cc	/^        vector<int> A;$/;"	m	class:Shared	file:
+A	tencent1.cc	/^    A(){bar();}$/;"	f	struct:A
+A	tencent1.cc	/^struct A{$/;"	s	file:
+Add_binaryPaths	uglynumber.cc	/^void Binary::Add_binaryPaths(TreeNode *t,string s)$/;"	f	class:Binary
+B	moni.cc	/^class B : public A$/;"	c	file:
+B	tencent.cc	/^        vector<int> B;$/;"	m	class:Shared	file:
+B	tencent1.cc	/^struct B:A{$/;"	s	file:
+Banzhuan	360.cc	/^int Banzhuan(int day)$/;"	f
+Binary	uglynumber.cc	/^class Binary{$/;"	c	file:
+C	tencent.cc	/^        vector<int> C;$/;"	m	class:Shared	file:
+CreatTree	ali.cc	/^Node* Node::CreatTree(Node *tree)$/;"	f	class:Node
+FindNode	ali.cc	/^void FindNode(Node *tree,int &big,int &small)$/;"	f
+Find_first	360.cc	/^char Find_first(char *ch)$/;"	f
+FreeList	ali1.cc	/^class FreeList{$/;"	c	file:
+Freelist	ali1.cc	/^        struct Freelist$/;"	s	class:FreeList	file:
+Hanoi	Hanio.cc	/^class Hanoi{$/;"	c	file:
+Joker	huawei2.cc	/^        Joker(string str):$/;"	f	class:Joker
+Joker	huawei2.cc	/^class Joker$/;"	c	file:
+MAXSIZE	ali1.cc	18;"	d	file:
+Mid_creat	uglynumber.cc	/^TreeNode * TreeNode::Mid_creat()$/;"	f	class:TreeNode
+Mid_print	uglynumber.cc	/^void TreeNode::Mid_print(TreeNode *t)$/;"	f	class:TreeNode
+Node	ali.cc	/^class Node{$/;"	c	file:
+Node	deepth.cc	/^struct Node{$/;"	s	file:
+Shared	tencent.cc	/^        Shared(vector<int> a,vector<int> b):$/;"	f	class:Shared
+Shared	tencent.cc	/^class Shared{$/;"	c	file:
+Shared_int	tencent.cc	/^void Shared::Shared_int()$/;"	f	class:Shared
+Str_vec	uglynumber.cc	/^        vector<string> Str_vec;$/;"	m	class:Binary	file:
+String_d	static.cc	4;"	d	file:
+String_t	static.cc	/^typedef char* String_t;$/;"	t	file:
+TreeNode	uglynumber.cc	/^    TreeNode(int x):$/;"	f	struct:TreeNode
+TreeNode	uglynumber.cc	/^struct TreeNode{$/;"	s	file:
+Ugly	uglynumber.cc	/^class Ugly{$/;"	c	file:
+Ziji	ziji.cc	/^class Ziji{$/;"	c	file:
+add	ziji.cc	/^        void add(vector<int> &v,int ii,int begin,int end,int k)$/;"	f	class:Ziji
+addr	ali1.cc	/^            int *addr;$/;"	m	struct:FreeList::Freelist	file:
+address	ali1.cc	/^        void *address = malloc(MAXSIZE*sizeof(int));$/;"	m	class:FreeList	file:
+age	static.cc	/^static int age;$/;"	v	file:
+bar	tencent1.cc	/^    virtual void bar(){printf("bar");}$/;"	f	struct:A
+bar	tencent1.cc	/^    void bar(){printf("b_bar");}$/;"	f	struct:B
+binaryTreePaths	uglynumber.cc	/^        vector<string> binaryTreePaths( TreeNode *root)$/;"	f	class:Binary
+buildMaxTree	ziji.cc	/^vector<int> buildMaxTree(vector<int> mvec,int len)$/;"	f
+campare	huawei2.cc	/^void Joker::campare()$/;"	f	class:Joker
+campare1	huawei2.cc	/^        vector<string> campare1,campare2;$/;"	m	class:Joker	file:
+campare2	huawei2.cc	/^        vector<string> campare1,campare2;$/;"	m	class:Joker	file:
+combine	ziji.cc	/^        vector<vector<int>> combine(int n,int k)$/;"	f	class:Ziji
+data	ali.cc	/^        int data;$/;"	m	class:Node	file:
+data	deepth.cc	/^    int data;$/;"	m	struct:Node	file:
+findstring	ali2.cc	/^int findstring(string str,string substr)$/;"	f
+foo	static.cc	/^void foo()$/;"	f
+foo	tencent1.cc	/^    void foo(){printf("b_foo");}$/;"	f	struct:B
+foo	tencent1.cc	/^    void foo(){printf("foo");}$/;"	f	struct:A
+foo1	static.cc	/^static void foo1()$/;"	f	file:
+formatstring	meituan.cc	/^char* formatstring(char *source)$/;"	f
+freelist	ali1.cc	/^        Freelist freelist[MAXSIZE];$/;"	m	class:FreeList	file:
+freelist	ali1.cc	/^        freelist[0]= {MAXSIZE,address};$/;"	m	class:FreeList	file:
+fun	moni.cc	/^int fun(unsigned int x)$/;"	f
+func	ali1.cc	/^int func(unsigned int i)$/;"	f
+func	moni.cc	/^        virtual void func(int val = 1)$/;"	f	class:A
+func	moni.cc	/^        void func(int val=0)$/;"	f	class:B
+funcc	moni.cc	/^void funcc(char str_arg[100])$/;"	f
+getSolution	Hanio.cc	/^vector<string> Hanoi::getSolution(int n)$/;"	f	class:Hanoi
+getUgly	uglynumber.cc	/^        int getUgly(int n)$/;"	f	class:Ugly
+get_Maxnum	uglynumber.cc	/^int get_Maxnum(vector<int> &nums)$/;"	f
+get_single	uglynumber.cc	/^vector<int> get_single(vector<int> &nums)$/;"	f
+init_vec	ali2.cc	/^void init_vec(map<string,int> &map_vec)$/;"	f
+init_vec	ali2.cc	/^void init_vec(set<string> &set_vec)$/;"	f
+init_vec	ali2.cc	/^void init_vec(vector<string> &svec)$/;"	f
+input	huawei2.cc	/^        string input;$/;"	m	class:Joker	file:
+isUgly	uglynumber.cc	/^        bool isUgly(int n)$/;"	f	class:Ugly
+lchild	ali.cc	/^        Node *lchild,*rchild;$/;"	m	class:Node	file:
+lchild	deepth.cc	/^    Node *lchild, *rchild;$/;"	m	struct:Node	file:
+left	uglynumber.cc	/^    TreeNode *left,*right;$/;"	m	struct:TreeNode	file:
+main	360.cc	/^int main()$/;"	f
+main	3601.cc	/^int main()$/;"	f
+main	Hanio.cc	/^int main()$/;"	f
+main	ali.cc	/^int main()$/;"	f
+main	ali1.cc	/^int main()$/;"	f
+main	ali2.cc	/^int main()$/;"	f
+main	alibaba.cc	/^int main()$/;"	f
+main	huawei2.cc	/^int main()$/;"	f
+main	meituan.cc	/^int main()$/;"	f
+main	moni.cc	/^int main()$/;"	f
+main	static.cc	/^int main()$/;"	f
+main	tencent.cc	/^int main()$/;"	f
+main	tencent1.cc	/^int main()$/;"	f
+main	uglynumber.cc	/^int main()$/;"	f
+main	ziji.cc	/^int main()$/;"	f
+min	uglynumber.cc	/^int min(int l,int m,int r)$/;"	f
+move	Hanio.cc	/^void Hanoi::move(int num,string left,string mid,string right,vector<string> &strvec)$/;"	f	class:Hanoi
+moveone	Hanio.cc	/^void Hanoi::moveone(int num,string left,string right,vector<string> &strvec)$/;"	f	class:Hanoi
+noexcept	ali1.cc	/^        void operator delete(void *) noexcept;$/;"	m	class:FreeList	file:
+noexcept	ali1.cc	/^        void operator delete[](void *) noexcept;$/;"	m	class:FreeList	file:
+operator delete	ali1.cc	/^void FreeList::operator delete(void *t)$/;"	f	class:FreeList
+operator new	ali1.cc	/^void * FreeList::operator new(size_t t)$/;"	f	class:FreeList
+operator new[]	ali1.cc	/^void *FreeList::operator new[](size_t t)$/;"	f	class:FreeList
+print	Hanio.cc	/^void print(vector<string> str)$/;"	f
+print	ali.cc	/^void Node::print(Node *tree)$/;"	f	class:Node
+print	ali2.cc	/^void print(map<string,int> map_vec)$/;"	f
+print	ali2.cc	/^void print(set<string> set_vec)$/;"	f
+print	ali2.cc	/^void print(vector<string> &svec)$/;"	f
+print	huawei2.cc	/^void print(vector<string> Svec)$/;"	f
+print	tencent.cc	/^void print(vector<int> c)$/;"	f
+print	uglynumber.cc	/^void print(const vector<int> vec)$/;"	f
+print	uglynumber.cc	/^void print(vector<string> vec)$/;"	f
+print	ziji.cc	/^void print(vector<int> vec)$/;"	f
+print	ziji.cc	/^void print(vector<vector<int>> vec)$/;"	f
+rchild	ali.cc	/^        Node *lchild,*rchild;$/;"	m	class:Node	file:
+rchild	deepth.cc	/^    Node *lchild, *rchild;$/;"	m	struct:Node	file:
+returndata	ali.cc	/^        int returndata() {return data;}$/;"	f	class:Node
+reverse	ziji.cc	/^void reverse(vector<int> &stack,int top,int end)$/;"	f
+reverseStack	ziji.cc	/^vector<int> reverseStack(vector<int> stack,int top)$/;"	f
+right	uglynumber.cc	/^    TreeNode *left,*right;$/;"	m	struct:TreeNode	file:
+single_int	uglynumber.cc	/^int single_int(int *arr,int n)$/;"	f
+size	ali1.cc	/^        int size = MAXSIZE;$/;"	m	class:FreeList	file:
+slice_joker	huawei2.cc	/^void Joker::slice_joker()$/;"	f	class:Joker
+sort_by_dic	ali2.cc	/^void sort_by_dic(vector<string> &svec)$/;"	f
+test	moni.cc	/^        virtual void test()$/;"	f	class:A
+uselist	ali1.cc	/^        Freelist uselist[MAXSIZE];$/;"	m	class:FreeList	file:
+usesize	ali1.cc	/^            int usesize;$/;"	m	struct:FreeList::Freelist	file:
+val	uglynumber.cc	/^    int val;$/;"	m	struct:TreeNode	file:
+vec_int	ziji.cc	/^        vector<vector<int>> vec_int;$/;"	m	class:Ziji	file:
